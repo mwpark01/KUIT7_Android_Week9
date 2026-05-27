@@ -4,10 +4,6 @@ on:
   pull_request:
     branches: [ main, develop ]
 
-permissions:
-  contents: read
-  pull-requests: write
-
 jobs:
   ktlint:
     name: check code style
