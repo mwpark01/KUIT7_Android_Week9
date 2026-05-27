@@ -8,9 +8,11 @@ import androidx.compose.ui.Modifier
 import com.example.core.Greeter
 
 @Composable
-fun HomeScreen(modifier: Modifier= Modifier, name: String){
+fun HomeScreen(
+    modifier: Modifier = Modifier,
+    name: String,
+) {
     Column(modifier = modifier.fillMaxSize()) {
         Text(Greeter.hello(name))
     }
 }
-
